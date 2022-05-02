@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2a9d8f;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+/* QUOTE BOX */
+.quote-box{
+    padding: 25px;
+    text-align: center;
+}
+.quote-box .input-box{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.quote-box .input-box .input{ 
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background-color: #264653;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.quote-box .input-box .btn{
+    border: none;
+    outline: none;
+    background-color: #0077b6;
+    padding: 1rem;
+    border-radius: 12px;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.quote-box .show-quotes .quotes-box{
+    background-color: #fefae0;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.quote-box .show-quotes .quotes-box .quote-text{
+    font-size: 2rem;
+    color: #264653;
+    margin-bottom: 25px;   
+}
+.quote-box .show-quotes .quotes-box .quote-author{
+    text-align: right;
+    color: #2a9d8f;
+}
+.not-found h1{
+    color: #fff;
+    font-size: 6rem;
+    margin: 20px;
+}
